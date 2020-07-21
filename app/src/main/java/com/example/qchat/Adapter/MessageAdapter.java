@@ -61,7 +61,7 @@ public class MessageAdapter extends RecyclerView.Adapter<MessageAdapter.ViewHold
         holder.show_message.setText(chat.getMessage());
         if(imgurl.equals("default"))
         {
-            holder.imageURL.setImageResource(R.drawable.black_user);
+            holder.imageURL.setImageResource(R.drawable.person2);
 
         }
         else

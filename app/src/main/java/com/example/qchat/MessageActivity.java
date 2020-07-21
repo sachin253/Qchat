@@ -111,7 +111,7 @@ ValueEventListener seenListener;
 
                UserName.setText(userName);
                if(url.equals("default"))
-                    imageURL.setImageResource(R.drawable.black_user);
+                    imageURL.setImageResource(R.drawable.person2);
                 else
                     Glide.with(getApplicationContext()).load(url).into(imageURL);
 
