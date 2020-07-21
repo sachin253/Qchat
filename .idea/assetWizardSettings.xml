@@ -334,7 +334,7 @@
                         <option name="values">
                           <map>
                             <entry key="color" value="ee3e36" />
-                            <entry key="outputName" value="app_icon" />
+                            <entry key="outputName" value="splash_icon" />
                             <entry key="sourceFile" value="F:\Coding\Qchat" />
                           </map>
                         </option>
