@@ -147,4 +147,9 @@ public class MainActivity extends AppCompatActivity
         super.onPause();
         status("offline");
     }
+    @Override
+    public void onBackPressed()
+    {
+        this.moveTaskToBack(true);
+    }
 }

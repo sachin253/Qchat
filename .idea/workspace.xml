@@ -11,9 +11,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7af450ae-8c4a-4403-ad9b-a9052261522c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/qchat/splashActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/splash_icon.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/splash_screen.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" afterDir="false" />
@@ -24,12 +21,16 @@
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/app.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/qchat/Adapter/UserAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/qchat/Adapter/UserAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/qchat/Fragments/ProfileFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/qchat/Fragments/ProfileFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/qchat/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/qchat/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/qchat/MessageActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/qchat/MessageActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/qchat/StartActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/qchat/StartActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/qchat/splashActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/qchat/splashActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/rv_item.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/rv_item.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,8 +60,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="layoutResourceFile" />
-        <option value="Class" />
         <option value="resourceFile" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -76,7 +77,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="JBAAGF0587739RH" />
-    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2020-07-21T12:29:22.895Z" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2020-07-21T19:11:16.839Z" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SelectDeploymentTargetsDialog.selectedDevices" value="990295a1&#10;JBAAGF0587739RH" />
@@ -251,10 +252,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="286" y="144" key="#PSD/0.0.1536.824@0.0.1536.824" timestamp="1594778591071" />
-    <state x="957" y="186" key="#com.intellij.ide.util.MemberChooser" timestamp="1595340030475">
+    <state x="957" y="186" key="#com.intellij.ide.util.MemberChooser" timestamp="1595350611522">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="957" y="186" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1595340030475" />
+    <state x="957" y="186" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1595350611522" />
     <state x="498" y="337" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1594882590490">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -287,22 +288,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="693" y="211" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1595309150022" />
-    <state width="745" height="244" key="GridCell.Tab.0.bottom" timestamp="1595341720485">
+    <state width="1491" height="217" key="GridCell.Tab.0.bottom" timestamp="1595351275201">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="745" height="244" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1595341720485" />
-    <state width="745" height="244" key="GridCell.Tab.0.center" timestamp="1595341720485">
+    <state width="1491" height="217" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1595351275201" />
+    <state width="1491" height="217" key="GridCell.Tab.0.center" timestamp="1595351275201">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="745" height="244" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1595341720485" />
-    <state width="745" height="244" key="GridCell.Tab.0.left" timestamp="1595341720484">
+    <state width="1491" height="217" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1595351275201" />
+    <state width="1491" height="217" key="GridCell.Tab.0.left" timestamp="1595351275200">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="745" height="244" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1595341720484" />
-    <state width="745" height="244" key="GridCell.Tab.0.right" timestamp="1595341720485">
+    <state width="1491" height="217" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1595351275200" />
+    <state width="1491" height="217" key="GridCell.Tab.0.right" timestamp="1595351275201">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="745" height="244" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1595341720485" />
+    <state width="1491" height="217" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1595351275201" />
     <state x="206" y="0" width="965" height="824" key="ScreenshotViewer.Dimensions" timestamp="1595151023033">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -311,10 +312,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="54" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1595309127469" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1595337989520">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1595343237621">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1595337989520" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1595343237621" />
     <state x="584" y="190" key="chooseDestDirectoryDialog" timestamp="1595342060530">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -323,10 +324,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="93" y="93" width="1350" height="638" key="com.android.tools.idea.avdmanager.AvdListDialog/0.0.1536.824@0.0.1536.824" timestamp="1595254562931" />
-    <state x="397" y="216" key="com.intellij.ide.util.TipDialog" timestamp="1595338953739">
+    <state x="397" y="216" key="com.intellij.ide.util.TipDialog" timestamp="1595346535070">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="397" y="216" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1595338953739" />
+    <state x="397" y="216" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1595346535070" />
     <state x="558" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1595337920690">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

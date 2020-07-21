@@ -71,8 +71,8 @@ ValueEventListener seenListener;
             @Override
             public void onClick(View view)
             {
-                //finish();
-                startActivity(new Intent(MessageActivity.this,MainActivity.class).setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP));
+                finish();
+                //startActivity(new Intent(MessageActivity.this,MainActivity.class).setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP));
             }
         });
         imageURL=findViewById(R.id.Mprofile_image);
