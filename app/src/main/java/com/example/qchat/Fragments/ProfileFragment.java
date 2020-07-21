@@ -52,7 +52,7 @@ public class ProfileFragment extends Fragment
 
             if(u.getImageURL().equals("default"))
                 {
-                    ImageURL.setImageResource(R.drawable.black_user);
+                    ImageURL.setImageResource(R.drawable.person2);
                 }
                 else
                 {

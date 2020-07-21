@@ -9,7 +9,7 @@
         android:id="@+id/profile_image"
         android:layout_width="60dp"
         android:layout_height="50dp"
-        android:src="@drawable/black_user"
+        android:src="@drawable/person2"
         app:civ_border_width="2dp"
         app:civ_border_color="#FF000000"/>
     <TextView
