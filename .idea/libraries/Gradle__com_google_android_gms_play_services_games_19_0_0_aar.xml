@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.android.gms:play-services-games:19.0.0@aar">
+    <CLASSES>
+      <root url="jar://C:/Gradle/caches/transforms-2/files-2.1/bc635ecddfbcc1ec6e51d6ba9b4dd292/jetified-play-services-games-19.0.0/jars/classes.jar!/" />
+      <root url="file://C:/Gradle/caches/transforms-2/files-2.1/bc635ecddfbcc1ec6e51d6ba9b4dd292/jetified-play-services-games-19.0.0/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://C:/Gradle/caches/modules-2/files-2.1/com.google.android.gms/play-services-games/19.0.0/d2ef71404b20c6e3d6b7d8129fbb438dfe0e543d/play-services-games-19.0.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>

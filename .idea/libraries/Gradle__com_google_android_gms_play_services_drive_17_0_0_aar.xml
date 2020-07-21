@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.android.gms:play-services-drive:17.0.0@aar">
+    <CLASSES>
+      <root url="jar://C:/Gradle/caches/transforms-2/files-2.1/b6c8c35fc87d478da60a6889d0892eab/jetified-play-services-drive-17.0.0/jars/classes.jar!/" />
+      <root url="file://C:/Gradle/caches/transforms-2/files-2.1/b6c8c35fc87d478da60a6889d0892eab/jetified-play-services-drive-17.0.0/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://C:/Gradle/caches/modules-2/files-2.1/com.google.android.gms/play-services-drive/17.0.0/9e164fe3577c17e68bb03d156a6161b697922ad9/play-services-drive-17.0.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>

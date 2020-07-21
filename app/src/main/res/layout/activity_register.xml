@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity"
+    android:orientation="vertical">
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/bar_layout"></include>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/toolbar">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="New Registration"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#8BC34A"></TextView>
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:id="@+id/userNameId"
+            android:layout_marginTop="10dp"
+            app:met_floatingLabel="normal"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:hint="Enter User Name"></com.rengwuxian.materialedittext.MaterialEditText>
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:id="@+id/emaiId"
+            android:layout_marginTop="10dp"
+            app:met_floatingLabel="normal"
+            android:hint="Enter Email Id"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"></com.rengwuxian.materialedittext.MaterialEditText>
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:id="@+id/passwordId"
+            android:layout_marginTop="10dp"
+            app:met_floatingLabel="normal"
+            android:hint="Enter Password"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"></com.rengwuxian.materialedittext.MaterialEditText>
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:id="@+id/conformPasswordId"
+            android:layout_marginTop="10dp"
+            app:met_floatingLabel="normal"
+            android:hint="Conform Password"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"></com.rengwuxian.materialedittext.MaterialEditText>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:id="@+id/regBtnId"
+            android:background="@color/colorPrimary"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"></Button>
+    </LinearLayout>
+
+</RelativeLayout>

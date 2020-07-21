@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1031177713376",
+    "firebase_url": "https://qchat-2ea44.firebaseio.com",
+    "project_id": "qchat-2ea44",
+    "storage_bucket": "qchat-2ea44.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1031177713376:android:08214103a98a0554ee4285",
+        "android_client_info": {
+          "package_name": "com.example.qchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1031177713376-7gtpcrjaq1ggek9ps0dqadn77ng33m06.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9wOD9rgPEazbQLdonbKWcAWw6PqrwPx4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1031177713376-7gtpcrjaq1ggek9ps0dqadn77ng33m06.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
