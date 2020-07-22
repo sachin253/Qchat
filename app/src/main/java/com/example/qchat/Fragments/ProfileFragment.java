@@ -15,6 +15,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.webkit.MimeTypeMap;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -48,7 +49,8 @@ import static android.app.Activity.RESULT_OK;
 public class ProfileFragment extends Fragment
 {
     TextView UserName;
-    CircleImageView ImageURL;
+   CircleImageView ImageURL;
+    ImageView uploadImage;
     FirebaseUser fuser;
     DatabaseReference reference;
 
@@ -62,13 +64,13 @@ public class ProfileFragment extends Fragment
     {
         View  view=inflater.inflate(R.layout.fragment_profile,container,false);
         ImageURL=view.findViewById(R.id.PFprofile_image);
+        uploadImage=view.findViewById(R.id.UploadImageId);
         UserName=view.findViewById(R.id.PFusernameTV);
 
         fuser= FirebaseAuth.getInstance().getCurrentUser();
         reference= FirebaseDatabase.getInstance().getReference("Profile").child(fuser.getUid());
-        //firebaseStorage= FirebaseStorage.getInstance();
         storageReference=FirebaseStorage.getInstance().getReference(fuser.getUid()).child("Images");
-        //StorageReference myRefe=storageReference.child(fuser.getUid()).getRoot();
+
         reference.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot)
@@ -94,7 +96,7 @@ public class ProfileFragment extends Fragment
             }
         });
 
-        ImageURL.setOnClickListener(new View.OnClickListener()
+        uploadImage.setOnClickListener(new View.OnClickListener()
         {
             @Override
             public void onClick(View view)

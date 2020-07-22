@@ -143,26 +143,35 @@ public class UserAdapter extends RecyclerView.Adapter<UserAdapter.ViewHolder>
         DatabaseReference reference= FirebaseDatabase.getInstance().getReference("Chats");
         reference.addValueEventListener(new ValueEventListener() {
             @Override
-            public void onDataChange(@NonNull DataSnapshot snapshot) {
-                for(DataSnapshot snapshot1:snapshot.getChildren())
+            public void onDataChange(@NonNull DataSnapshot snapshot)
+            {
+                try
                 {
-                    Chat chat=snapshot1.getValue(Chat.class);
-                    if(chat.getReceiver().equals(userid) && chat.getSender().equals(firebaseUser.getUid()))
+                    for(DataSnapshot snapshot1:snapshot.getChildren())
                     {
-                        theLastMessage=chat.getMessage();
+                        Chat chat=snapshot1.getValue(Chat.class);
+                        if(chat.getReceiver().equals(userid) && chat.getSender().equals(firebaseUser.getUid() )|| chat.getReceiver().equals(firebaseUser.getUid()) && chat.getSender().equals(userid))
+                        {
+                            theLastMessage=chat.getMessage();
+                        }
                     }
+
+                    switch (theLastMessage)
+                    {
+                        case  "default":
+                            last_msg.setText("No Message");
+                            break;
+                        default:
+                            last_msg.setText(theLastMessage);
+                            break;
+                    }
+                    theLastMessage="default";
+
+                } catch (Exception e)
+                {
+
                 }
 
-                switch (theLastMessage)
-                {
-                    case  "default":
-                        last_msg.setText("No Message");
-                        break;
-                    default:
-                        last_msg.setText(theLastMessage);
-                        break;
-                }
-                theLastMessage="default";
             }
 
             @Override

@@ -11,6 +11,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7af450ae-8c4a-4403-ad9b-a9052261522c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/attach.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/back.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/back_arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/edit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/gallery.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/info.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/phone.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/send.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/upload.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/user_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/font/arbutus_slab.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/font/corben.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/proflie_rv_item.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/font_certs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/preloaded_fonts.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" afterDir="false" />
@@ -28,8 +43,10 @@
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/qchat/Fragments/ProfileFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/qchat/Fragments/ProfileFragment.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/qchat/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/qchat/MainActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/qchat/MessageActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/qchat/MessageActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/qchat/StartActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/qchat/StartActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/qchat/splashActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/qchat/splashActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_message.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_message.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_profile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_profile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_profile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_profile.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/rv_item.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/rv_item.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" afterDir="false" />
     </list>
@@ -59,9 +76,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="layoutResourceFile" />
         <option value="resourceFile" />
         <option value="Class" />
+        <option value="layoutResourceFile" />
       </list>
     </option>
   </component>
@@ -77,10 +94,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="JBAAGF0587739RH" />
-    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2020-07-21T19:11:16.839Z" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2020-07-22T07:24:30.416Z" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="SelectDeploymentTargetsDialog.selectedDevices" value="990295a1&#10;JBAAGF0587739RH" />
+    <property name="SelectDeploymentTargetsDialog.selectedDevices" value="JBAAGF0587739RH&#10;990295a1" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi" />
@@ -106,7 +123,7 @@
     <key name="android.template.597660518">
       <recent name="com.example.qchat" />
     </key>
-    <key name="android.template.-1126314257">
+    <key name="android.template.1182952503">
       <recent name="com.example.qchat" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -120,7 +137,7 @@
     <key name="android.template.-2097615146">
       <recent name="com.example.qchat.Fragments" />
     </key>
-    <key name="android.template.1182952503">
+    <key name="android.template.-1126314257">
       <recent name="com.example.qchat" />
     </key>
   </component>
@@ -237,7 +254,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595337960833</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="back button update">
+      <created>1595359808689</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1595359808689</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -245,7 +269,8 @@
     <MESSAGE value="change profile siize" />
     <MESSAGE value="change profile size" />
     <MESSAGE value="change in code" />
-    <option name="LAST_COMMIT_MESSAGE" value="change in code" />
+    <MESSAGE value="back button update" />
+    <option name="LAST_COMMIT_MESSAGE" value="back button update" />
   </component>
   <component name="WindowStateProjectService">
     <state x="286" y="144" key="#PSD" timestamp="1594778591071">
@@ -268,42 +293,46 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="566" y="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1536.824@0.0.1536.824" timestamp="1594882595218" />
-    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1595339874588">
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1595399120631">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1595339874588" />
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1595399120631" />
     <state x="349" y="167" key="AndroidCreateResourceDirectoryDialog" timestamp="1594872135407">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="349" y="167" key="AndroidCreateResourceDirectoryDialog/0.0.1536.824@0.0.1536.824" timestamp="1594872135407" />
-    <state x="349" y="167" key="AndroidCreateResourceFileDialog" timestamp="1595340113137">
+    <state x="349" y="167" key="AndroidCreateResourceFileDialog" timestamp="1595394066845">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="349" y="167" key="AndroidCreateResourceFileDialog/0.0.1536.824@0.0.1536.824" timestamp="1595340113137" />
-    <state x="434" y="0" key="CommitChangelistDialog2" timestamp="1595337959838">
+    <state x="349" y="167" key="AndroidCreateResourceFileDialog/0.0.1536.824@0.0.1536.824" timestamp="1595394066845" />
+    <state x="434" y="0" key="CommitChangelistDialog2" timestamp="1595359803438">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="434" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1595337959838" />
+    <state x="434" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1595359803438" />
+    <state x="449" y="167" key="Downloadable.Font.Dialog.Size" timestamp="1595398875547">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="449" y="167" key="Downloadable.Font.Dialog.Size/0.0.1536.824@0.0.1536.824" timestamp="1595398875547" />
     <state x="693" y="211" key="FileChooserDialogImpl" timestamp="1595309150022">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="693" y="211" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1595309150022" />
-    <state width="1491" height="217" key="GridCell.Tab.0.bottom" timestamp="1595351275201">
+    <state width="1491" height="186" key="GridCell.Tab.0.bottom" timestamp="1595403034577">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1491" height="217" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1595351275201" />
-    <state width="1491" height="217" key="GridCell.Tab.0.center" timestamp="1595351275201">
+    <state width="1491" height="186" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1595403034577" />
+    <state width="1491" height="186" key="GridCell.Tab.0.center" timestamp="1595403034576">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1491" height="217" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1595351275201" />
-    <state width="1491" height="217" key="GridCell.Tab.0.left" timestamp="1595351275200">
+    <state width="1491" height="186" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1595403034576" />
+    <state width="1491" height="186" key="GridCell.Tab.0.left" timestamp="1595403034576">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1491" height="217" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1595351275200" />
-    <state width="1491" height="217" key="GridCell.Tab.0.right" timestamp="1595351275201">
+    <state width="1491" height="186" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1595403034576" />
+    <state width="1491" height="186" key="GridCell.Tab.0.right" timestamp="1595403034576">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1491" height="217" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1595351275201" />
+    <state width="1491" height="186" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1595403034576" />
     <state x="206" y="0" width="965" height="824" key="ScreenshotViewer.Dimensions" timestamp="1595151023033">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -312,22 +341,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="54" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1595309127469" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1595343237621">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1595359839248">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1595343237621" />
-    <state x="584" y="190" key="chooseDestDirectoryDialog" timestamp="1595342060530">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1595359839248" />
+    <state x="584" y="190" key="chooseDestDirectoryDialog" timestamp="1595399786607">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="584" y="190" key="chooseDestDirectoryDialog/0.0.1536.824@0.0.1536.824" timestamp="1595342060530" />
+    <state x="584" y="190" key="chooseDestDirectoryDialog/0.0.1536.824@0.0.1536.824" timestamp="1595399786607" />
     <state x="93" y="93" width="1350" height="638" key="com.android.tools.idea.avdmanager.AvdListDialog" timestamp="1595254562931">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="93" y="93" width="1350" height="638" key="com.android.tools.idea.avdmanager.AvdListDialog/0.0.1536.824@0.0.1536.824" timestamp="1595254562931" />
-    <state x="397" y="216" key="com.intellij.ide.util.TipDialog" timestamp="1595346535070">
+    <state x="397" y="216" key="com.intellij.ide.util.TipDialog" timestamp="1595404231662">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="397" y="216" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1595346535070" />
+    <state x="397" y="216" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1595404231662" />
     <state x="558" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1595337920690">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

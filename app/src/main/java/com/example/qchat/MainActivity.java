@@ -60,9 +60,10 @@ public class MainActivity extends AppCompatActivity
     }
     private void Logout()
     {
-        startActivity(new Intent(MainActivity.this, LoginActivity.class).setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP));
+
+        startActivity(new Intent(MainActivity.this, LoginActivity.class));
         firebaseAuth.signOut();
-        //finish();
+        finish();
 
     }
     @Override

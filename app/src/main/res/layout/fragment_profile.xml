@@ -16,33 +16,206 @@
                 android:layout_height="match_parent">
 
                 <TextView
+                    android:id="@+id/profileTextid"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Profile"
-                    android:layout_marginTop="5dp"
                     android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:text="Profile"
                     android:textSize="15dp"
                     android:textStyle="bold"></TextView>
                 <de.hdodenhof.circleimageview.CircleImageView
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
                     android:id="@+id/PFprofile_image"
-                    android:src="@drawable/black_user"
+                    android:src="@drawable/person2"
                     android:layout_marginTop="60dp"
                     app:civ_border_width="2dp"
-                    android:layout_centerHorizontal="true"></de.hdodenhof.circleimageview.CircleImageView>
+                    android:layout_centerHorizontal="true">
+
+                </de.hdodenhof.circleimageview.CircleImageView>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/PFprofile_image"
+                    android:id="@+id/UploadImageId"
+                    android:layout_marginTop="-25dp"
+                    android:layout_toRightOf="@id/PFprofile_image"
+                    android:src="@drawable/upload" />
+
+                <TextView
+                    android:id="@+id/PFusernameTV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/nametxtid"
+                    android:layout_toRightOf="@id/PFprofile_icon"
+                    android:layout_marginLeft="10dp"
+                    android:text="Username"
+                    android:textSize="15dp"
+                    android:textStyle="bold"></TextView>
+
+
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Username"
-                    android:id="@+id/PFusernameTV"
-                    android:layout_below="@id/PFprofile_image"
+                   android:layout_below="@id/PFprofile_image"
+                    android:layout_toRightOf="@id/profileTextid"
+                    android:text="Name"
+                    android:layout_marginTop="58dp"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/nametxtid"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/PFprofile_icon"
+                    android:src="@drawable/user_icon"
+                    android:layout_marginTop="70dp"
+                    android:layout_toLeftOf="@id/nametxtid"
+                    android:layout_below="@id/PFprofile_image">
+
+                </ImageView>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/EditFprofile_icon"
+                    android:src="@drawable/edit"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_toRightOf="@id/nametxtid"
+                  android:layout_marginLeft="220dp"
+                    android:layout_below="@id/PFprofile_image">
+
+                </ImageView>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/lineId"
+                    android:layout_toRightOf="@id/PFprofile_icon"
+                    android:background="@color/black_overlay"
+                   android:layout_below="@id/PFusernameTV"
+                    android:layout_marginLeft="10dp"
+                    tools:ignore="MissingConstraints">
+
+
+                </View>
+
+
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/lineId"
+                    android:layout_toRightOf="@id/profileTextid"
+                    android:text="About"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/AboutTextId"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/info_icon"
+                    android:src="@drawable/info"
+                    android:layout_marginTop="52dp"
+                    android:layout_toLeftOf="@id/AboutTextId"
+                    android:layout_below="@id/lineId">
+
+                </ImageView>
+                <TextView
+                    android:id="@+id/PFAboutTV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/AboutTextId"
+                    android:layout_toRightOf="@id/info_icon"
+                    android:layout_marginLeft="10dp"
+                    android:text="Busy"
+                    android:textSize="15dp"
+                    android:textStyle="bold"></TextView>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/EditFAbout_icon"
+                    android:src="@drawable/edit"
                     android:layout_marginTop="15dp"
-                    android:textStyle="bold"
-                    android:textSize="20dp"
-                    android:layout_centerHorizontal="true"></TextView>
+                    android:layout_toRightOf="@id/AboutTextId"
+                    android:layout_marginLeft="220dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_below="@id/lineId">
+
+                </ImageView>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_toRightOf="@id/PFprofile_icon"
+                    android:background="@color/black_overlay"
+                    android:layout_below="@id/PFAboutTV"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/lineId2"
+                    tools:ignore="MissingConstraints">
+
+
+                </View>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/lineId2"
+                    android:layout_toRightOf="@id/profileTextid"
+                    android:text="Phone"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/ContactTextId"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/call_icon"
+                    android:src="@drawable/phone"
+                    android:layout_marginTop="52dp"
+                    android:layout_toLeftOf="@id/AboutTextId"
+                    android:layout_below="@id/lineId2">
+
+                </ImageView>
+                <TextView
+                    android:id="@+id/PFCallTV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/ContactTextId"
+                    android:layout_toRightOf="@id/info_icon"
+                    android:layout_marginLeft="10dp"
+                    android:text="7409324972"
+                    android:textSize="15dp"
+                    android:textStyle="bold"></TextView>
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_toRightOf="@id/PFprofile_icon"
+                    android:background="@color/black_overlay"
+                    android:layout_below="@id/PFCallTV"
+                    android:layout_marginLeft="10dp"
+                    tools:ignore="MissingConstraints">
+
+
+                </View>
             </RelativeLayout>
+
         </androidx.cardview.widget.CardView>
 
 
