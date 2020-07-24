@@ -54,6 +54,7 @@ public class UserAdapter extends RecyclerView.Adapter<UserAdapter.ViewHolder>
         return new UserAdapter.ViewHolder(view);
     }
 
+
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, int position)
     {
@@ -180,4 +181,5 @@ public class UserAdapter extends RecyclerView.Adapter<UserAdapter.ViewHolder>
             }
         });
     }
+
 }

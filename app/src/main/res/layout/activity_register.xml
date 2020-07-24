@@ -24,6 +24,34 @@
             android:textSize="20dp"
             android:layout_marginTop="10dp"
             android:textColor="#8BC34A"></TextView>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:id="@+id/registration_image"
+                android:src="@drawable/person2"
+                android:layout_marginTop="60dp"
+                app:civ_border_width="2dp"
+                android:layout_centerHorizontal="true">
+
+            </de.hdodenhof.circleimageview.CircleImageView>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/registration_image"
+                android:id="@+id/RUploadImageId"
+                android:layout_marginTop="-25dp"
+                android:layout_toRightOf="@id/registration_image"
+                android:src="@drawable/upload" />
+
+
+
+        </RelativeLayout>
+
 
         <com.rengwuxian.materialedittext.MaterialEditText
             android:layout_height="wrap_content"

@@ -26,6 +26,7 @@ import com.example.qchat.R;
 import com.google.android.gms.tasks.Continuation;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.OnFailureListener;
+import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
@@ -38,6 +39,7 @@ import com.google.firebase.storage.FirebaseStorage;
 import com.google.firebase.storage.StorageReference;
 import com.google.firebase.storage.StorageTask;
 import com.google.firebase.storage.UploadTask;
+import com.squareup.picasso.Picasso;
 
 import java.util.HashMap;
 
@@ -55,6 +57,8 @@ public class ProfileFragment extends Fragment
     DatabaseReference reference;
 
     StorageReference storageReference;
+    StorageReference storageReference1;
+    FirebaseStorage firebaseStorage;
     private  static  final int IMAGE_REQUEST=1;
     private Uri imageUri;
     private StorageTask uploadTask;
@@ -66,10 +70,25 @@ public class ProfileFragment extends Fragment
         ImageURL=view.findViewById(R.id.PFprofile_image);
         uploadImage=view.findViewById(R.id.UploadImageId);
         UserName=view.findViewById(R.id.PFusernameTV);
-
+        firebaseStorage=FirebaseStorage.getInstance();
+        storageReference=firebaseStorage.getReference();
+        storageReference1=firebaseStorage.getReference();
         fuser= FirebaseAuth.getInstance().getCurrentUser();
         reference= FirebaseDatabase.getInstance().getReference("Profile").child(fuser.getUid());
-        storageReference=FirebaseStorage.getInstance().getReference(fuser.getUid()).child("Images");
+        storageReference1.child(fuser.getUid()).child("Images/Profile Pic").getDownloadUrl().addOnSuccessListener(new OnSuccessListener<Uri>()
+        {
+            @Override
+            public void onSuccess(Uri uri)
+            {
+                Glide.with(getContext()).load(uri).fitCenter().centerCrop().into(ImageURL);
+                String mUrise=uri.toString();
+
+                reference=FirebaseDatabase.getInstance().getReference("Profile").child(fuser.getUid());
+                HashMap<String,Object>map=new HashMap<>();
+                map.put("imageURL",mUrise);
+                reference.updateChildren(map);
+            }
+        });
 
         reference.addValueEventListener(new ValueEventListener() {
             @Override
@@ -129,7 +148,7 @@ public class ProfileFragment extends Fragment
 
         if(imageUri !=null)
         {
-            final  StorageReference fileReference= storageReference.child(System.currentTimeMillis()+"."+getFileExtention(imageUri));
+            final  StorageReference fileReference= storageReference.child(fuser.getUid()).child("Images").child("Profile Pic");
             uploadTask=fileReference.putFile(imageUri);
             uploadTask.continueWithTask(new Continuation<UploadTask.TaskSnapshot,Task<Uri>>()
             {
